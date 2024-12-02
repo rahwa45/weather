@@ -1,0 +1,87 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url('./assets/image1.webp');
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.location-input {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  width: 250px;
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(70, 71, 73);
+  color: white;
+  outline: 1px solid white;
+  
+  
+  
+  
+}
+::placeholder{
+  color: white;
+ 
+
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  
+  background: rgba(120, 111, 111, 0.7); 
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.data-item {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.data-item h2 {
+  margin: 0;
+}
+.weather-header{
+  position: absolute;
+  top: 0;
+  margin-top: 10em;
+}
+.header1{
+  font-weight: 900;
+  font-size: 40px;
+}
+.custom-rotate {
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+.load{
+  font-size: 20px;
+  position:absolute;
+  top: 50px;
+  margin-top: 40px;
+}
